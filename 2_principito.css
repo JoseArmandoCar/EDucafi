@@ -1,0 +1,129 @@
+
+body{
+	
+	/*background-image:url("https://www.iac.es/gabinete/difus/ciencia/jmabad/22.jpg");*/
+	background-image:url("https://previews.123rf.com/images/krinichnaya/krinichnaya1611/krinichnaya161100303/67172795-chispas-azules-claras-abstractas-en-el-fondo-blanco-textura-de-fantas%C3%ADa-fractal-para-carteles-postales.jpg");*/
+	
+}
+h1{ /*letras del principito*/
+	font-size:40px; /* tamano de letra*/
+	font-family: Outwrite;/* tipo de letras*/
+	font-weight: bold; /* grosor de letras*/
+	color:black;/* color letras*/
+	letter-spacing: 5px;/*espacio entre letras*/
+}
+h5{
+	font-size:18px;
+	font-family: Arial;
+	font-weight: normal;
+	color:green;
+	text-transform:uppercase;/*cambio entre mayusculas y minisculas*/
+	letter-spacing: 2px;
+}
+h3{
+	font-size:18px;
+	font-family: Arial;
+	font-weight: normal;
+	color:green;
+	text-transform:uppercase;/*cambio entre mayusculas y minisculas*/
+	letter-spacing: 2px;
+}
+/*a:link{
+	font-size:0.5em; 
+	color:green;
+}
+
+a:visited{
+	color:brown;
+}*/
+
+a:hover{
+	color: orange;/*para colorear el link cuando se le de un toque*/
+}
+/*
+a:active{
+	color: green;
+}*/
+#titulo{
+	background-color: lightblue; /*coloca el fodo , dode est[a el principito (palabras*/
+	
+}
+#capitulo{
+	 /*coloca el fodo , dode esta capitulo (palabras*/
+	background-color: #F6D8CE;
+}
+/*img#logo{
+	position: fixed;
+	top: 5000px;
+	right: 5px;
+	width: 150px;
+}
+.columna#portada{
+	width: 600%
+	height: 100%;
+}*/
+#titulo div{
+	padding: 10px; /*ancho de la parte del principito, sino lo da as[i por default*/
+}
+p{
+	text-indent: 40px; /*colocala sangria*/
+}
+.contenedor{
+	width: 100%
+	text-align:center;
+}
+#pie{
+	background-color: white;
+	font-size:44px;
+	font-family: time;
+	-webkit-box-shadow: -7px 3px 51px 19px rgba(0,0,0,0.75);
+	-moz-box-shadow: -7px 3px 51px 19px rgba(0,0,0,0.75);
+	box-shadow: -7px 3px 51px 19px rgba(0,0,0,0.75);
+	clear: both;
+}
+
+.columna
+.contenedor .texto{
+	height: 500px;
+	padding-top:10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/*Espacio entre plabras*/ 
+}
+span.dialog{
+	font-style: time;
+	letter-spacing: 1px;
+}
+p:first-letter{ /* selector se usa para agregar un estilo a la primera letra del selector especificado.   negrea cada primera letra de parrafo y aumenta su tamallo*/
+	font-weight: bold;/*tipo de letra*/
+	font-size: 150%;
+}
+.contenedor.texto p{
+padding-right: 15PX; /*El relleno de un elemento es el espacio entre su contenido y su borde.*/
+padding-left: 15px;
+}
+.columna{
+	background-color: white;
+	width: 33%;/*ancho de cada columna*/
+	float: left;/*hacia donde se inclinan y se colocan no hay center*/
+	/*-webkit-box-shadow: -7px 3px 30px -3px rgba(0,0,0,4);*/
+	/*-moz-box-shadow: -7px 3px 30px -3px rgba(0,0,0,0.75);*/
+	box-shadow:  -7px 3px 30px -3px rgba(0,0,0,10);/*red, green, blue, alfa, transparecncia del color*/
+
+}
+/* y, x, desenfoque es el tercero, el cuarto es para la extension de la sombra
+
+.desplazador{
+	width: 5%;
+	float: left; id, class
+}
+/*.desplazador img{
+	width: 80%;
+	opacity: 0.20;
+}
+.desplazador img:hover{
+	opacity: 0.35;
+}
+.escondido{
+	visibility: hidden;
+}*/
